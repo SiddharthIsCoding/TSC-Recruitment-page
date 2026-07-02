@@ -1,2 +1,2 @@
 # TSC-Recruitment-page
-a simple recruitment page
+a simple recruitment page for TSC
