@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TSC || Recruitment page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>TSC || SELECTOR</title>
+    <style>
+        body { font-family: sans-serif; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .job { border: 1px solid #ccc; padding: 15px; margin-bottom: 15px; border-radius: 5px; }
+        .job h2 { margin-top: 0; }
+    </style>
 </head>
 <body>
-    <br>
-    <h1>Join The Shattered Crown</h1>
-    <form action="https://formsubmit.co/nuuke32blitz@gmail.com" method="POST"><br>
-      <input type="text" name="name" placeholder="Enter Name" required><br><br>
-      <input type="email" name="email" placeholder="Enter email" required><br><br>
-      <textarea name="experience" id="exp" placeholder="describe your experience so far" ></textarea><br><br>
-      <h1>TSC is a newly formed team and not an LLC are you okay with the
-          fact that you will be paid only upon the success of the game that is
-          being developed right now?</h1><br>
-      <input type="text" name="Terms and condition feedback" required><br><br>
-      <button type="submit">SEND</button>
-    </form>
+    <div class="container">
+        <h1>What did you want to do?</h1>
+        <div class="job">
+            <h2>Pixel Art</h2>
+            <p>Create 2D pixel art for the game.</p>
+            <button>SELECT</button>
+        </div>
+        <div class="job">
+            <h2>Programming</h2>
+            <p>Develop and implement game logic, features, and tools.</p>
+            <button>SELECT</button>
+        </div>
+        <div class="job">
+            <h2>Music Composition</h2>
+            <p>Create soundtracks and sound effect for the game.</p>
+            <button>SELECT</button>
+        </div>
+    </div>
 </body>
 </html>
